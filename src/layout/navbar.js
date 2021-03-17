@@ -12,9 +12,7 @@ const Navbar = () => {
     }
   };
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-  });
+  window.addEventListener("scroll", handleScroll);
 
   return (
     <div className={scrolled ? null : "section"}>
